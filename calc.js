@@ -1,20 +1,21 @@
-const add = (a, b) => {
-  return a + b;
+// const value1 = 50;
+// const value2 = 50;
+
+const add = () => {
+  return 50 + 50;
 };
 
-const subtract = (a, b) => {
-  return a - b;
+const subtract = () => {
+  return 50 - 50;
 };
 
-const multiply = (a, b) => {
-  return a * b;
+const multiply = () => {
+  return 50 * 50;
 };
 
-const divide = (a, b) => {
-  return a / b;
+const divide = () => {
+  return 50 / 50;
 };
-
-const value = 50;
 
 // module.exports = value;
-module.exports = { add, subtract, multiply, divide, value };
+module.exports = { add, subtract, multiply, divide };
